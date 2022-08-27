@@ -1,0 +1,84 @@
+body{
+    background-color: rgb(25, 20, 42) !important;
+    color: rgb(232, 231, 232) !important;
+    overflow: hidden o !important;
+}
+.logo{
+    -webkit-clip-path: circle(30.9% at 50% 50%);
+    clip-path: circle(30.9% at 50% 50%);
+}
+.navbar{
+    font-size: x-large;
+    font-weight: bold;
+    position: absolute;
+    z-index: 3;
+}
+.my-photo{
+    position: absolute;
+    z-index: 2;
+    top: 2px;
+    right: 280px;
+    width: 500px;
+}
+.svg-circle{
+    position: absolute;
+    z-index: 1;
+    top: 10px;
+    left: 10px;
+}
+.contact-form{
+    margin-bottom: 50px;
+}
+footer {
+    background-color:  rgb(214, 33, 58);
+    font-size: large;
+    font-weight: bold;
+    width:100%;
+    position: absolute;
+    bottom:10;
+    left:0;
+    margin-top: 80px;
+
+}
+
+footer a {
+    text-decoration: none;
+    float: left;
+    color: rgb(232, 231, 232);
+    padding: 20px;
+}
+footer a:hover{
+    color: black;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .navbar{
+        font-size: x-large;
+        font-weight: bold;
+        position: absolute;
+        z-index: 2;
+    }
+    .my-photo{ 
+        position: absolute;
+        top: 250px;
+        left: 100px;
+        width: 300px;
+        z-index: 1;
+    }
+    .svg-circle{
+        width: 100px !important;
+        height: 100px !important;
+        display: none;
+    }
+    .footer-svg{
+        width:40px;
+        height: 40px;
+    }
+    .contact-form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+  }
